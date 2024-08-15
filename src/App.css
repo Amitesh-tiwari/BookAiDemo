@@ -1,0 +1,19 @@
+
+.App{
+  background-color:  #231531;
+  display: block;
+  flex-wrap: nowrap; /* Prevent wrapping */
+  overflow-x: auto
+}
+
+.book{
+  margin-left: 60px;
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping */
+  overflow-x: auto;
+  margin-right: 16px;
+}
+
+.book-container{
+  display:  inline-flex;
+}
